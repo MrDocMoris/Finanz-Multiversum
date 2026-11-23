@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#2b1c78"/><stop offset=".5" stop-color="#140d3a"/><stop offset="1" stop-color="#07061a"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#66e0ff"/><stop offset=".5" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff5ec8"/></linearGradient>
+  <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a2f7a"/><stop offset="1" stop-color="#140f36"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe29a"/><stop offset="1" stop-color="#ff9d3d"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="g2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g fill="#fff">
+  <circle cx="160" cy="190" r="4" opacity=".7"/><circle cx="860" cy="150" r="3" opacity=".6"/><circle cx="900" cy="600" r="4" opacity=".55"/>
+  <circle cx="120" cy="680" r="3" opacity=".6"/><circle cx="300" cy="920" r="4" opacity=".5"/><circle cx="790" cy="900" r="3" opacity=".6"/>
+  <circle cx="520" cy="96" r="3" opacity=".5"/><circle cx="70" cy="420" r="2.5" opacity=".6"/>
+</g>
+<ellipse cx="512" cy="560" rx="430" ry="140" fill="none" stroke="url(#ring)" stroke-width="14" opacity=".55" transform="rotate(-14 512 560)"/>
+<!-- Balken-Diagramm hinter der Münze -->
+<g opacity=".85">
+  <rect x="200" y="600" width="70" height="200" rx="14" fill="#66e0ff" opacity=".55"/>
+  <rect x="754" y="470" width="70" height="330" rx="14" fill="#ff5ec8" opacity=".55"/>
+</g>
+<!-- Münze -->
+<circle cx="512" cy="500" r="270" fill="#7a4cff" opacity=".6" filter="url(#glow)"/>
+<circle cx="512" cy="500" r="250" fill="url(#coin)" stroke="url(#ring)" stroke-width="16"/>
+<circle cx="512" cy="500" r="200" fill="none" stroke="url(#ring)" stroke-width="6" opacity=".5"/>
+<!-- leuchtendes Euro-Zeichen -->
+<g stroke="url(#gold)" stroke-width="36" stroke-linecap="round" fill="none">
+  <g filter="url(#g2)" opacity=".9"><path d="M610 395a130 130 0 1 0 0 210"/><path d="M380 465h170M380 540h150"/></g>
+  <path d="M610 395a130 130 0 1 0 0 210"/><path d="M380 465h170M380 540h150"/>
+</g>
+<circle cx="150" cy="560" r="30" fill="#7fe3ff"/>
+<circle cx="880" cy="420" r="30" fill="#ffcf6b"/>
