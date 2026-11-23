@@ -1,7 +1,7 @@
 {
-  "build": 1,
-  "version": "1.1",
-  "size": 4331384,
-  "apk": "https://github.com/MrDocMoris/Finanz-Multiversum/releases/download/v1.1/Finanz-Multiversum.apk",
-  "notes": "Finanz-Multiversum: erste Version – Buchungen, Verträge mit Kündigungsfristen, Budgets, Spartöpfe, Auswertung, ING-Import"
+  "build": 2,
+  "version": "1.2",
+  "size": 5619023,
+  "apk": "https://github.com/MrDocMoris/Finanz-Multiversum/releases/download/v1.2/Finanz-Multiversum.apk",
+  "notes": "Eigenes App-Icon (Euro-Münze)"
 }
